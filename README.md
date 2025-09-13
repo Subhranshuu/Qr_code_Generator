@@ -14,7 +14,7 @@ Built with **HTML, CSS, and JavaScript**, it runs **100% in your browser** — n
 ---
 
 ## 📸 Preview
-![QR Code Preview](https://qr-code-generator-ashen-ten.vercel.app/)
+![QR Code Preview](assets/Qrcodepreview.png)
 
 ---
 
