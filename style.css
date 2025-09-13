@@ -1,0 +1,106 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Background image */
+body {
+  display: flex;
+  padding: 0 10px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url("assets/mountains.jpg") no-repeat center center/cover;
+}
+
+/* Header text */
+header {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+/* Wrapper box */
+.wrapper {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 25px;
+  border-radius: 8px;
+  text-align: center;
+  width: 320px;
+}
+
+.wrapper.active .qr-code {
+  height: 220px;
+}
+
+/* Form input and button */
+.form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #2980b9;
+}
+
+/* QR Code image */
+.qr-code {
+  margin-top: 15px;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.qr-code img {
+  width: 200px;
+  height: 200px;
+}
+
+/* Download button */
+#download-btn {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  background: #27ae60;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#download-btn:hover {
+  background: #1e8449;
+}
+
+#download-btn.hidden {
+  display: none;
+}
