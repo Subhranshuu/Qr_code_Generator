@@ -14,7 +14,7 @@ Built with **HTML, CSS, and JavaScript**, it runs **100% in your browser** — n
 ---
 
 ## 📸 Preview
-![QR Code Preview](https://dummyimage.com/400x200/cccccc/000000&text=QR+Code+Preview)
+![QR Code Preview](https://qr-code-generator-ashen-ten.vercel.app/)
 
 ---
 
